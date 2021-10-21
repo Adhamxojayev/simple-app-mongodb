@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const POST = require('./auth/post.js')
+const POST = require('./controller/post.js')
 
 router
     .route('/post')
